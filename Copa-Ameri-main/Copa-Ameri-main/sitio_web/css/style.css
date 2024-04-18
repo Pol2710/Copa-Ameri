@@ -24,3 +24,65 @@ body {
 .card-text {
     min-height: 5rem;
 }
+#img14{
+    max-width: 100%;
+    height: auto;
+}
+.stripe-container{
+    display: flex;
+}
+.stripe-container .card{
+    width: 300px;
+    flex-shrink: 0;
+    margin-right: 1rem;
+}
+.product-stripe{
+    overflow-x: scroll;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+.responsive-iframe{
+    position: relative;
+    padding-top: 56.25%;
+}
+.responsive-iframe iframe{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.social {
+width: auto;
+background: #2f3640;
+color: #ffffff;
+font-size: 12px;
+padding: 35px 0px;
+}
+.social p {
+    text-align: center;
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+.social p:hover{
+    text-decoration: underline;
+}
+.link {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.link a {
+    margin: 0 30px;
+}
+.link a i {
+    font-size: 3rem;
+}
+.link a.face:hover {
+    opacity: .5;
+}
+.link a.insta:hover {
+    opacity: .5;
+}.link a.tW:hover {
+    opacity: .5;
+}
